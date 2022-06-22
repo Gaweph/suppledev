@@ -9,7 +9,7 @@ import ArrowWithText from "../components/ArrowWithText.svelte";
 // faPinterest as faPinterest
 // } from "@fortawesome/free-brands-svg-icons";
 import {
-faGlobeAmericas as faGlobe,
+faEnvelope as faContact,
 faRocket
 } from "@fortawesome/free-solid-svg-icons";
 </script>
@@ -20,15 +20,15 @@ faRocket
       <img class="logo-and-title" src="/content/blog/images/logo_name.svg" alt="Gareth Williams" />
 			<img class="logo" src="logo.svg" alt="logo" />
 			<div class="home-title">
-				<span style="font-weight: bolder;">Gareth</span>
-				<span style="font-weight: lighter;">Williams</span>
+				<span style="font-weight: bolder;">supple</span>
+				<span style="font-weight: lighter;">dev</span>
 			</div>
 		</div>
 	</div>
 	<div id="bottom">
 		<div class="contents">		
 			<div class="quote">
-				<span class="quote-text">'Ace, what a guy'</span> <span class="quote-author">- Anonymous</span>
+				<!-- <span class="quote-text">'Ace, what a guy'</span> <span class="quote-author">- Anonymous</span> -->
 			</div>
 
 			<div class="social-container">
@@ -63,7 +63,7 @@ faRocket
 						preload="true"
 						href="blog"
 						>
-						<Icon class="large" icon={faGlobe} />		
+						<Icon class="large" icon={faContact} />		
 						<ArrowWithText ref="blog-arrow" />						
 						<span class="screen-reader-only">Blog</span>
 					</a>
