@@ -17,7 +17,7 @@ faRocket
 <div class="fullscreen">
 	<div id="top">
 		<div class="contents">
-      <img class="logo-and-title" src="/content/blog/images/logo_name.svg" alt="Gareth Williams" />
+      <!-- <img class="logo-and-title" src="/content/blog/images/logo_name.svg" alt="Gareth Williams" /> -->
 			<img class="logo" src="logo.svg" alt="logo" />
 			<div class="home-title">
 				<span style="font-weight: lighter;">supple</span>
@@ -223,12 +223,12 @@ faRocket
   @media (max-height: 560px)
   {
     // Inline logo and name
-    .logo-and-title {
-      display: inline-block;
-    }
-    .logo, .home-title {
-      display: none;
-    }
+    // .logo-and-title {
+    //   display: inline-block;
+    // }
+    // .logo, .home-title {
+    //   display: none;
+    // }
   }
 
   .icon-container {
