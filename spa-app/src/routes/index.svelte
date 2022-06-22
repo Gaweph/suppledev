@@ -28,7 +28,9 @@ faRocket
 	<div id="bottom">
 		<div class="contents">		
 			<div class="quote">
-				<!-- <span class="quote-text">'Ace, what a guy'</span> <span class="quote-author">- Anonymous</span> -->
+				<!-- <span class="quote-text">'Ace, what a guy'</span> <span class="quote-author"> -->
+          .NET Contractor / Freelancer
+        <!-- </span> -->
 			</div>
 
 			<div class="social-container">
