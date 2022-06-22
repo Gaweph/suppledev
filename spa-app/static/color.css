@@ -1,0 +1,121 @@
+.tmp {
+    color: #173f5f;
+    color: #20639b;
+    color: #3caea3; /*#097669*/
+    color: #f6d55c;
+    color: #ed553b;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+  }
+  footer {
+    background-color: #fff;
+    color: #454545;
+    /* border-bottom: 2px solid #ed553b; */
+    border-top: 2px solid rgb(228, 228, 228);
+  }
+  
+  .bg-main {
+    background-color: #f5f5f5;
+    /* background-color: #fff; */
+    color: #454545;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    /* color: #3caea3; */
+    color: inherit;
+    border-bottom: 2px solid #3caea3;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #3caea3;
+  }
+  
+  .post-link-title a:hover,
+  .post-link-title a:focus {
+    /* color: #3caea3; */
+    /* border-bottom: 1px solid #3caea3 !important; */
+    border-bottom: 5px solid #ed553b !important;
+  }
+  
+  .title {
+    border-bottom: 5px solid #ed553b;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #454545;
+  }
+  
+  .post-link-title {
+    color: #454545;
+  }
+  
+  .bs-callout-primary {
+    border-left: 5px solid #ed553b !important;
+  }
+  
+  .tag,
+  .project,
+  button {
+    /* background-color: #3caea3;
+    color: white; */
+    border: 1px solid #173f5f;
+  }
+  
+  .tag:hover,
+  .project:hover,
+  .tag:focus,
+  .project:focus,
+  button:hover,
+  button:focus {
+    /* color: #f5f5f5; */
+    /* color: #fff;
+    background-color: #097669; */
+  }
+  .post-link-title a {
+    color: inherit;
+  }
+  
+  .bs-callout,
+  .post-link-container {
+    border-radius: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: #fff;
+  }
+  .post-link-container {
+    border-right: 15px solid #ed553b;
+  }
+  
+  .post-contents {
+    border-radius: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: #fff;
+  }
+  
+  /* Simple light box */
+  .sl-overlay {
+    background: #000 !important;
+  }
+  .sl-wrapper .sl-close,
+  .sl-wrapper .sl-navigation button,
+  .sl-wrapper .sl-counter {
+    color: #ed553b !important;
+    font-weight: 700;
+  }
+  
+  .sl-image {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: #fff;
+  }
