@@ -20,8 +20,8 @@ faRocket
       <img class="logo-and-title" src="/content/blog/images/logo_name.svg" alt="Gareth Williams" />
 			<img class="logo" src="logo.svg" alt="logo" />
 			<div class="home-title">
-				<span style="font-weight: bolder;">supple</span>
-				<span style="font-weight: lighter;">dev</span>
+				<span style="font-weight: lighter;">supple</span>
+				<span style="font-weight: bolder;">dev</span>
 			</div>
 		</div>
 	</div>
