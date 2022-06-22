@@ -2,7 +2,7 @@
 // import BlogArrow from "$components/Blog-Arrow.svelte";
 
 import Icon from "../components/Icon.svelte";
-import ArrowWithText from "../components/ArrowWithText.svelte";
+import ContactArrowWithText from "../components/ContactArrowWithText.svelte";
 // import ProjectsArrow from '$components/Projects-Arrow.svelte';
 // import {
 // faGithub as faGithub,
@@ -60,11 +60,10 @@ faRocket
         </div>		 -->
 				<div class="btn-blog icon-container">
 					<a
-						preload="true"
-						href="blog"
+            href="mailto:contact@supple.dev"
 						>
 						<Icon class="large" icon={faContact} />		
-						<ArrowWithText ref="blog-arrow" />						
+						<ContactArrowWithText ref="blog-arrow" />						
 						<span class="screen-reader-only">Blog</span>
 					</a>
 				</div>
