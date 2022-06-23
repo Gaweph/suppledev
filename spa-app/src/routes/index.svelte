@@ -29,7 +29,7 @@ faRocket
 		<div class="contents">		
 			<div class="quote">
 				<!-- <span class="quote-text">'Ace, what a guy'</span> <span class="quote-author"> -->
-          .NET Contractor / Freelancer
+          .NET Experts - Freelance Contractors
         <!-- </span> -->
 			</div>
 
