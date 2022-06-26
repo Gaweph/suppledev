@@ -20,8 +20,8 @@ faRocket
       <!-- <img class="logo-and-title" src="/content/blog/images/logo_name.svg" alt="Gareth Williams" /> -->
 			<img class="logo" src="logo.svg" alt="logo" />
 			<div class="home-title">
-				<span style="font-weight: lighter;">supple</span>
-				<span style="font-weight: bolder;">dev</span>
+				<span style="font-weight: bolder;">Gareth</span>
+				<span style="font-weight: lighter;">Williams</span>
 			</div>
 		</div>
 	</div>
@@ -29,7 +29,7 @@ faRocket
 		<div class="contents">		
 			<div class="quote">
 				<!-- <span class="quote-text">'Ace, what a guy'</span> <span class="quote-author"> -->
-          .NET Experts - Freelance Contractors
+          Senior Software Engineer
         <!-- </span> -->
 			</div>
 
