@@ -88,52 +88,65 @@
 					</div>
 					<div class="col-md-6 animate">
 
+                        <div class="ui-card shadow-xl">
+                            <pre class="line-numbers language-csharp code-toolbar"><code class=" language-swift"><span class="token comment">//  Authorize Payment</span>
+<span class="token atrule">@IBAction</span> <span class="token keyword keyword-func">func</span> <span class="token function">authorizePayment</span><span class="token punctuation">(</span><span class="token number">_</span> sender<span class="token punctuation">:</span> <span class="token builtin">AnyObject</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-let">let</span> paymentViewController <span class="token operator">=</span> <span class="token function">paymentViewController</span><span class="token punctuation">(</span>configuration<span class="token punctuation">:</span> paymentConfig<span class="token punctuation">,</span> delegate<span class="token punctuation">:</span> <span class="token keyword keyword-self">self</span><span class="token punctuation">)</span>
+    <span class="token function">present</span><span class="token punctuation">(</span>paymentViewController<span class="token operator">!</span><span class="token punctuation">,</span> animated<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> completion<span class="token punctuation">:</span> <span class="token constant">nil</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Cancel Payment</span>
+<span class="token keyword keyword-func">func</span> <span class="token function">paymentDidCancel</span><span class="token punctuation">(</span><span class="token number">_</span> paymentViewController<span class="token punctuation">:</span> <span class="token builtin">PaymentViewController</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Payment Cancelled"</span><span class="token punctuation">)</span>
+    resultText <span class="token operator">=</span> <span class="token string">""</span>
+    successView<span class="token punctuation">.</span>isHidden <span class="token operator">=</span> <span class="token boolean">true</span>
+    paymentViewController<span class="token punctuation">.</span><span class="token function">dismiss</span><span class="token punctuation">(</span>animated<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> completion<span class="token punctuation">:</span> <span class="token constant">nil</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code><div class="toolbar"><div class="toolbar-item"><span>C#</span></div></div></pre>
+                          </div>
+
+                          <div class="ui-card shadow-xl">
+                            <pre class="line-numbers language-csharp code-toolbar"><code class=" language-csharp"><span class="token keyword keyword-func">namespace</span> Supple.dev.Services;
+public <span class="token keyword keyword-func">class</span> <span class="token builtin">SoftwareDevelopmentService</span>
+{
+    <span class="token comment">// Handle on-demand software development feature requests</span>
+    [<span class="token builtin">Theory</span>]
+    [<span class="token builtin">InlineData</span>(<span class="token string">"C#"</span>)] [<span class="token builtin">InlineData</span>(<span class="token string">".NET"</span>)] [<span class="token builtin">InlineData</span>(<span class="token string">"MSSql"</span>)]
+    public <span class="token keyword keyword-func">void</span> <span class="token function">OnDemandSoftwareDevelopment</span>(string language) { }
+    
+    <span class="token comment">// Implement comprehensive unit testing for your codebase</span>
+    public <span class="token keyword keyword-func">void</span> <span class="token function">UnitTesting</span>() { }
+    
+    <span class="token comment">// Perform integration testing to ensure seamless functionality</span>
+    public <span class="token keyword keyword-func">void</span> <span class="token function">IntegrationTesting</span>() { }
+    }
+    
+    <span class="token comment">// Streamline and automate your CI/CD pipelines for efficient software delivery</span>
+    public <span class="token keyword keyword-func">void</span> <span class="token function">CI_CD_Pipelines</span>() { }
+    
+    <span class="token comment">// Optimize your codebase for improved performance and maintainability</span>
+    public <span class="token keyword keyword-func">void</span> <span class="token function">CodebaseOptimization</span>() { }
+    
+    <span class="token comment">// Assimilate knowledge by reviewing and providing feedback on your pull requests</span>
+    public <span class="token keyword keyword-func">void</span> <span class="token function">PullRequestReview</span>() { }
+}
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code><div class="toolbar"><div class="toolbar-item"><span>C#</span></div></div></pre>
+                          </div>
                         
+
         <div class="ui-card shadow-xl">
-            <pre class="line-numbers language-csharp code-toolbar"><code class=" language-csharp">
-                namespace Supple.dev.Services
-                {
-                    public class SoftwareDevelopmentService
-                    {
-                        <span class="token comment">// Handle on-demand software development in the specified language</span>
-                        public void <span class="token function">OnDemandSoftwareDevelopment</span>(string language) { }
-                        
-                        <span class="token comment">// Implement comprehensive unit testing for your codebase</span>
-                        public void <span class="token function">UnitTesting</span>() { }
-                        
-                        <span class="token comment">// Perform integration testing to ensure seamless functionality</span>
-                        public void <span class="token function">IntegrationTesting</span>() { }
+            <pre class="line-numbers language-csharp code-toolbar"><code class=" language-swift"><span class="token comment">//  Authorize Payment</span>
+<span class="token atrule">@IBAction</span> <span class="token keyword keyword-func">func</span> <span class="token function">authorizePayment</span><span class="token punctuation">(</span><span class="token number">_</span> sender<span class="token punctuation">:</span> <span class="token builtin">AnyObject</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-let">let</span> paymentViewController <span class="token operator">=</span> <span class="token function">paymentViewController</span><span class="token punctuation">(</span>configuration<span class="token punctuation">:</span> paymentConfig<span class="token punctuation">,</span> delegate<span class="token punctuation">:</span> <span class="token keyword keyword-self">self</span><span class="token punctuation">)</span>
+    <span class="token function">present</span><span class="token punctuation">(</span>paymentViewController<span class="token operator">!</span><span class="token punctuation">,</span> animated<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> completion<span class="token punctuation">:</span> <span class="token constant">nil</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
 
-                        <span class="token comment">// Streamline and automate your CI/CD pipelines for efficient software delivery</span>
-                        public void <span class="token function">CI_CD_Pipelines</span>() { }
-                        
-                        <span class="token comment">// Optimize your codebase for improved performance and maintainability</span>
-                        public void <span class="token function">CodebaseOptimization</span>() { }
-                        
-                        <span class="token comment">// Assimilate knowledge by reviewing and providing feedback on your pull requests</span>
-                        public void <span class="token function">PullRequestReview</span>() { }
-                    }
-                }
-            </code><div class="toolbar"><div class="toolbar-item"><span>C#</span></div></div></pre>
-          </div>
-					</div>
-				</div><!-- .row -->
-			</div><!-- .container -->
-		</div>
-
-        
-        <div class="ui-card shadow-xl">
-            <pre class="line-numbers language-csharp code-toolbar"><code class=" language-csharp"><span class="token comment">// Private key</span>
-<span class="token keyword keyword-var">var</span> privateKey <span class="token operator">=</span> <span class="token keyword keyword-get">get</span><span class="token punctuation">(</span><span class="token string">'87E#R{VxxbWva%2D?-sm=$DmW#{7y@E'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token comment">// Create a payment</span>
-<span class="token keyword keyword-var">var</span> payment <span class="token operator">=</span> <span class="token function">charge</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-key<span class="token punctuation">:</span> privateKey<span class="token punctuation">,</span>
-amount<span class="token punctuation">:</span> <span class="token number">599</span><span class="token punctuation">,</span>
-currency<span class="token punctuation">:</span> <span class="token string">'usd'</span><span class="token punctuation">,</span>
-source<span class="token punctuation">:</span> <span class="token string">'visa'</span><span class="token punctuation">,</span>
-description<span class="token punctuation">:</span> <span class="token string">'My first payment'</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code><div class="toolbar"><div class="toolbar-item"><span>C#</span></div></div></pre>
+<span class="token comment">// Cancel Payment</span>
+<span class="token keyword keyword-func">func</span> <span class="token function">paymentDidCancel</span><span class="token punctuation">(</span><span class="token number">_</span> paymentViewController<span class="token punctuation">:</span> <span class="token builtin">PaymentViewController</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Payment Cancelled"</span><span class="token punctuation">)</span>
+    resultText <span class="token operator">=</span> <span class="token string">""</span>
+    successView<span class="token punctuation">.</span>isHidden <span class="token operator">=</span> <span class="token boolean">true</span>
+    paymentViewController<span class="token punctuation">.</span><span class="token function">dismiss</span><span class="token punctuation">(</span>animated<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> completion<span class="token punctuation">:</span> <span class="token constant">nil</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code><div class="toolbar"><div class="toolbar-item"><span>C#</span></div></div></pre>
           </div>
 					</div>
 				</div><!-- .row -->
