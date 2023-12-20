@@ -28,47 +28,7 @@ faRocket
 	<div id="bottom">
 		<div class="contents">		
 			<div class="quote">
-				<!-- <span class="quote-text">'Ace, what a guy'</span> <span class="quote-author"> -->
-          Senior Software Engineer
-        <!-- </span> -->
-			</div>
-
-			<div class="social-container">
-				<!-- <a
-					href="https://github.com/Gaweph"
-					class="btn-github icon-container"
-					target="_blank"
-					rel="external">
-					<Icon class="large" icon={faGithub} />
-					<span class="screen-reader-only">Gaweph on Github</span>
-				</a> -->
-        <!-- <a
-					href="https://uk.pinterest.com/gaweph"
-					class="btn-pinterest icon-container"
-					target="_blank"
-					rel="external">
-					<Icon class="large" icon={faPinterest} />
-					<span class="screen-reader-only">gaweph on Pinterest</span>
-				</a>         -->
-				<!-- <div class="btn-projects icon-container">          
-					<a
-						preload="true"
-						href="projects"
-						>
-						<Icon class="large" icon={faRocket} />	
-						<ProjectsArrow ref="projects-arrow" />
-						<span class="screen-reader-only">Projects</span>
-					</a>
-        </div>		 -->
-				<div class="btn-blog icon-container">
-					<a
-            href="mailto:contact@supple.dev"
-						>
-						<Icon class="large" icon={faContact} />		
-						<ContactArrowWithText ref="blog-arrow" />						
-						<span class="screen-reader-only">Blog</span>
-					</a>
-				</div>
+				<span class="quote-text">'Syntaxtic sugar init!'</span> <span class="quote-author"></span>
 			</div>
 		</div>
 	</div>
