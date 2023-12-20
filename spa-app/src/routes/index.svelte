@@ -3,11 +3,11 @@
 
 import Icon from "../components/Icon.svelte";
 import ContactArrowWithText from "../components/ContactArrowWithText.svelte";
-// import ProjectsArrow from '$components/Projects-Arrow.svelte';
-// import {
-// faGithub as faGithub,
-// faPinterest as faPinterest
-// } from "@fortawesome/free-brands-svg-icons";
+import ProjectsArrow from '$components/Projects-Arrow.svelte';
+import {
+faGithub as faGithub,
+faPinterest as faPinterest
+} from "@fortawesome/free-brands-svg-icons";
 import {
 faEnvelope as faContact,
 faRocket
