@@ -28,8 +28,19 @@ faRocket
 	<div id="bottom">
 		<div class="contents">		
 			<div class="quote">
-				<span class="quote-text">'Syntaxtic sugar init!'</span> <span class="quote-author"></span>
+				<span class="quote-text">Syntaxtic sugar init!</span> <span class="quote-author"></span>
 			</div>
+
+                        <div class="social-container">
+				<a
+					href="https://github.com/Gaweph"
+					class="btn-github icon-container"
+					target="_blank"
+					rel="external">
+					<Icon class="large" icon={faGithub} />
+					<span class="screen-reader-only">Gaweph on Github</span>
+				</a>  
+                        </div>      
 		</div>
 	</div>
 </div>
